@@ -31,26 +31,26 @@ Likewise in list, strings also have index at each of its character. In python st
 
 Ex: Lets take a string
 
-+string = "crypto aimdy"
+string = "crypto aimdy"
 
-+Accesing index by positive indexing
++ Accesing index by positive indexing
 
 indexing =  c r y p t o   a i m  d  y
             0 1 2 3 4 5 6 7 8 9 10 11
 
-+Accesing index by negative indexing
++ Accesing index by negative indexing
 
 indexing =  c   r   y   p   t   o       a   i  m  d  y
           -12 -11 -10  -9  -8  -7  -6  -5  -4 -3 -2 -1
 
-## Slicing and reversing a String:
+### Slicing and reversing a String:
 
 + We can also slice string string from whatever indexes we want with the help of colon(:).
 
 + With slices, we can call multiple character values by creating a range of index numbers separated by a colon [x:y]
 we can also reverse a string using slice.
 
-+ Example : prints char at position 4 all the way upto char at position 5 but leaving the character 5.
+Example : prints char at position 4 all the way upto char at position 5 but leaving the character 5.
 
 print(s[4:5])
 
@@ -67,7 +67,7 @@ prints 'cryp'
 
 We can also find the length of a string using len(string)
 
-Ex: print(len("crypto"))
+Ex: print(len("crypto"))'''
 
 prints:  6
 
@@ -118,11 +118,9 @@ Strings can multiply using a * operator
 ### Splitting strings
 In python strings can be splitted using split() method. this method returns string after splitting into the specified break points.
 
-+Syntax :
+*** Syntax : str.split(separator, maxsplit) ***
 
-str.split(separator, maxsplit)
-#ttile in strig
-synteax:
+
 
 ### str.Title()
 This function returns a string which has first letter in each word is uppercase and all remaining letters are lowercase. 
