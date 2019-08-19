@@ -77,7 +77,7 @@ Ex:
 
       prints:  6
 
-## String Concatenatiion and Multiplication
+### String Concatenatiion and Multiplication
 
 ### Concatenation:
 
@@ -87,8 +87,9 @@ Example:
 
       'a' + 'b' + 'c'
        prints:   'abc'
-   
-***Remember, strings are immutable! If you concatenate or repeat a string stored in a variable, you will have to assign the new string to another variable in order to keep it.
+
+
+*** Remember, strings are immutable! If you concatenate or repeat a string stored in a variable, you will have to assign the new string to another variable in order to keep it. ***
 
 Example: 
 
@@ -170,7 +171,7 @@ This method returns index position of a string if found els eit returns -1.
 
      Syntax: str.find(sub[, start[, end]] )
 
-# Swapcase():
+### Swapcase():
 
 The string swapcase() method converts all uppercase characters to lowercase and all lowercase characters to uppercase characters of the given string, and returns it.
 
