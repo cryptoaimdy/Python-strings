@@ -1,16 +1,19 @@
-### Strings in Python 
+# Strings in Python 
 
 
-# Creating a string in python
+## Creating a string in python
 
 Strings in python can be created in three ways.
 + Single Quote,
- Ex: 'i am a single quote string'( used to create single line string, but nnot preferred because another string inside this string cannot be created, if done so compiler gets confused and dont know where to start and returns a compiler error.
-+ Double quotes,
- Ex1: "i am adouble quotes string"
-Ex2: "i am double quotes string. 'and i am a sub string inside double quote string' End of double quote string "
 
-(Most preferred because sub string can also be created inside this string with the help of singl quotes)
+ Example: 'i am a single quote string' (used to create single line string, but not preferred because another string inside this string cannot be created, if done so compiler gets confused and dont know where to start and returns a compiler error.)
+ 
++ Double quotes,
+
+Ex1: "i am a double quotes string"
+Ex2: "i am double quotes string, 'and i am a sub string inside double quote string' End of double quote string"
+(Double Quoto strings are Most preferred because sub string can also be created inside this string with the help of single quotes)
+
 + Three quotes ( used to create multi line string )
 
 Ex: ''' i am multi
@@ -18,11 +21,11 @@ Ex: ''' i am multi
     string'''
 
 
-# string indexing
+## String Indexing:
 
-likewise in list, string also have index at each of its character. In python string idnexing start with 0.
+Likewise in list, strings also have index at each of its character. In python string idnexing start with 0.
 
- Ex: Lets take a string
+Ex: Lets take a string
 
 string = "crypto aimdy"
 
