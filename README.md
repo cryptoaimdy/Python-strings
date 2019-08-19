@@ -56,7 +56,7 @@ Example : prints char at position 4 all the way upto char at position 5 but leav
 
       print(s[4:5])
 
-      prints the character 'c'
+      prints the character 't'
 
 
 You can also use negative index numbers to slice a string.
