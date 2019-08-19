@@ -21,10 +21,8 @@ Ex2: "i am double quotes string, 'and i am a sub string inside double quote stri
 + Three quotes ( used to create multi line string )
 
 Ex: '''i am multi
-
-     line
-     
-    string'''
+         line
+       string'''
 
 
 ## String Indexing:
